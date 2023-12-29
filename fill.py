@@ -1,8 +1,10 @@
+# This program is to fill the google form automatically 
+
 from selenium import webdriver
 import time 
 
 web = webdriver.Chrome()
-web.get('https://forms.gle/jMeyLsYmVT81XLZPA')
+web.get('https://forms.gle/jMeyLsYmVT81XLZPA') #for adding your own form change the link and change the xpath
 time.sleep(5)
 
 sname = "Abhishek"
