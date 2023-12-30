@@ -4,7 +4,7 @@ from selenium import webdriver
 import time 
 
 web = webdriver.Chrome()
-web.get('https://forms.gle/jMeyLsYmVT81XLZPA') #for adding your own form change the link and change the xpath
+web.get('https://forms.gle/jMeyLsYmVT81XLZPA') #for adding your own form change the link 
 time.sleep(5)
 
 sname = "Abhishek"
